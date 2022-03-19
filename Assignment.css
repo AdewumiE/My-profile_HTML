@@ -13,6 +13,8 @@ body {
   padding:20px;
   border-radius:10px;
   border:2px solid #d3d3d3;
+  -webkit-box-shadow: -2px 1px 4px 7px rgba(0,0,0,0.89); 
+box-shadow: -2px 1px 4px 7px rgba(0,0,0,0.89);
 }
 .page-head img {
   height:120px;
@@ -37,4 +39,5 @@ h2 {
 p {
   padding-left: 22px;
   margin-top:0px;
+  text-align: center;
 }
