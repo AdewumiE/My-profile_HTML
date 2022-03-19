@@ -5,6 +5,8 @@ body {
  border-style:solid; 
  padding:30px;
 }
+
+
 .page-head {
   display:flex;
   background-color:#ededed;
@@ -14,6 +16,10 @@ body {
 }
 .page-head img {
   height:120px;
+  padding: 4px;
+  background-color: #ededed;
+  border: solid black;
+  border-radius: 5px;
 }
 .page-head p, 
 .page-head h1{
