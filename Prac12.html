@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+.column img {
+        width: 33%;
+        height: 33%;
+        padding-right: 3px;
+    }
+
+.row {
+  display: flex;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+  flex: 20%;
+  padding: 5px;
+}
+</style>
+</head>
+<body>
+
+<h2>Images Side by Side</h2>
+<p>How to create side-by-side images with CSS Flexbox:</p>
+
+<div class="row">
+  <div class="column">
+    <img src="imagev1.jpg" alt="Snow" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="imagev2.jpg" alt="Forest" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="imagev3.jpg" alt="Mountains" style="width:100%">
+  </div>
+</div>
+
+</body>
+</html>

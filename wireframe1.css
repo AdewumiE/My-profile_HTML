@@ -1,0 +1,79 @@
+.box {
+    border: 3px solid black;
+    padding: 20px;
+    background-color: whitesmoke;
+  }
+  .top-nav {
+    margin-bottom: 4px;
+  }
+  .boxed {
+    margin-bottom: 30px;
+  }
+  .Posts {
+    margin-bottom: 30px;
+  }
+  
+  .posts .box {
+  
+    min-height: 150px;
+    padding: 0; 
+    border: none;
+    background-color: transparent;
+    }
+  
+  .post-content .box {
+    min-height: 300px;
+  }
+  .column { 
+    border: none;
+    border-width: 0mm;
+    float: right;
+    width: 25%;
+    padding: 2pt;
+  }
+  .col2 { 
+    border: none;
+    float: right;
+    width: 50%;
+    padding: 2pt;
+  }
+  .col1 { 
+    border: none;
+    float: right;
+    width: 100%;
+    padding: 2pt;
+  }
+  .col { 
+    border: none;
+    float: right;
+    width: 50%;
+    padding: 2pt;
+  }
+  /* Clear floats after the columns */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .card {
+    border: 2px dashed blue;
+  }
+  .row {
+    display: flex;
+  }
+  
+  .img {
+    width: 50%;
+    height: 50%;
+    padding-right: 3px;
+  }
+ .row2 {
+     border: thin black;
+ }
+ .head2{
+     border: 2px solid black;
+     margin: 1px;
+     width: 100%;
+     padding: 20px;
+ }
