@@ -1,7 +1,9 @@
 .box {
     border: 1px solid #dedede;
     background-color: #efefef;
-    
+}
+#more {
+  display: none;
 }
 .pad-3 {
     padding: 30px;
